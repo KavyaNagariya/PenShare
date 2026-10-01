@@ -1,0 +1,107 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Environment and Secrets
+.env
+*.env
+.env.cli
+.env.*
+!.env.example
+!.env.*.example
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and Diagnostics
+*.log
+logs/
+debug_logs/
+
+# Build and Compilation Artifacts
+dist/
+build/
+out/
+output/
+release/
+coverage/
+test-results/
+playwright-report/
+build/icons/generated/
+
+# Temporary and Scratch Directories
+scratch/
+.trash/
+.cache/
+local/*
+.req/
+.sidebar-contract-staging/
+.opencode/
+.penshare/
+.penecho/
+.penecho-local-test/
+
+# Curated Manual Test Scenarios
+testcase/*
+!testcase/README.md
+!testcase/canvas-agent-visual-explorer-en.md
+!testcase/canvas-agent-visual-explorer-zh.md
+!testcase/professional-diagrams-en.md
+
+# Private Plugins and Assets
+public/plugins/private/
+docs/assets/penecho-demo.gif
+tools/mobile/web/penecho-mark.png
+tools/mobile/android/
+tools/mobile/ios/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor and IDE Directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+.claude
+.impeccable/
+.playwright-cli/
+.zcode/
+.codex/
+.gemini/
+.aider*
+.windsurf/
+
+# Generated Design and Verification Previews
+docs/design-previews/readme-diagram-table-20260919/canvas-session.json
+docs/design-previews/readme-diagram-table-20260919/canvas.html
+docs/design-previews/readme-diagram-table-20260919/*-canvas.png
+docs/design-previews/readme-diagram-table-20260919/readme.*.html
+docs/design-previews/readme-diagram-table-20260919/readme-checks.json
+docs/design-previews/readme-diagram-table-20260919/verification.json
+docs/design-previews/readme-20260915/preview.local.html
+docs/codex-0.157.0-cache-smoke.json
+
+# Media and Large Video Recordings
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[wW][eE][bB][mM]
+*.[mM]4[vV]
+*.[aA][vV][iI]
+*.[mM][kK][vV]
+*.[mM][pP][eE][gG]
+*.[mM][pP][gG]
+*.[wW][mM][vV]
+*.[fF][lL][vV]
+*.[oO][gG][vV]
